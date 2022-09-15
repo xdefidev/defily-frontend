@@ -1,7 +1,7 @@
 import Button from 'components/Button/Button'
 import CurrencyLogo from 'components/LogoSwap/CurrencyLogo'
 import QuestionHelper from 'components/QuestionHelper/index'
-import { currencyEquals, ETHER, Token } from 'defily-v2-sdk'
+import { currencyEquals, ETHER, Token } from '@uniswap/sdk'
 
 import { SUGGESTED_BASES } from 'constants/swap'
 

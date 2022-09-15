@@ -1,6 +1,6 @@
 import address from 'constants/contracts'
 import tokens, { CHAT, DFL, DRAGON, xCHAT } from 'constants/tokens'
-import { currencyEquals, ETHER, WETH } from 'defily-v2-sdk'
+import { currencyEquals, ETHER, WETH } from '@uniswap/sdk'
 import { ApprovalState, useApproveCallback } from 'hooks/useApproveCallback'
 import useKardiachain from 'hooks/useKardiachain'
 import { useMemo, useState } from 'react'

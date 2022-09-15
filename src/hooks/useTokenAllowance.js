@@ -1,4 +1,4 @@
-import { TokenAmount } from 'defily-v2-sdk'
+import { TokenAmount } from '@uniswap/sdk'
 import { useMemo } from 'react'
 
 import { useTokenContract } from './useContract'

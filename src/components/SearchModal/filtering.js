@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { Token } from 'defily-v2-sdk'
+import { Token } from '@uniswap/sdk'
 import { isAddress } from 'utils/index'
 
 export function filterTokens(tokens, search) {

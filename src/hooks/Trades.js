@@ -1,6 +1,6 @@
 import useKardiachain from 'hooks/useKardiachain'
 import { isTradeBetter } from 'utils/trades'
-import { Trade } from 'defily-v2-sdk'
+import { Trade } from '@uniswap/sdk'
 import { useMemo } from 'react'
 
 import { useUserSingleHopOnly } from 'store/user/hooks'

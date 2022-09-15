@@ -1,4 +1,4 @@
-import { Token } from 'defily-v2-sdk'
+import { Token } from '@uniswap/sdk'
 import { useMemo } from 'react'
 import { useAllTokenBalances } from 'store/wallet/hooks'
 

@@ -1,5 +1,5 @@
 import { parseBytes32String } from '@ethersproject/strings'
-import { ETHER, Token } from 'defily-v2-sdk'
+import { ETHER, Token } from '@uniswap/sdk'
 import { useBytes32TokenContract, useTokenContract } from 'hooks/useContract'
 import useKardiachain from 'hooks/useKardiachain'
 import { useMemo } from 'react'

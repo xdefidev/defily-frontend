@@ -1,5 +1,5 @@
 import { Fragment, memo } from 'react'
-import { Trade } from 'defily-v2-sdk'
+import { Trade } from '@uniswap/sdk'
 import { ChevronRight } from 'react-feather'
 import { unwrappedToken } from 'utils/wrappedCurrency'
 

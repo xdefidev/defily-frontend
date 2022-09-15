@@ -2,7 +2,7 @@ import { BigNumber } from 'ethers'
 import kardiaClient from 'plugin/kardia-dx'
 import { showToastError } from 'components/CustomToast/CustomToast'
 import { getAddress } from '@ethersproject/address'
-import { JSBI, Percent } from 'defily-v2-sdk'
+import { JSBI, Percent } from '@uniswap/sdk'
 
 export function isAddress(value) {
   try {

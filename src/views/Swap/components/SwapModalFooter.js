@@ -1,6 +1,6 @@
 import Button from 'components/Button/Button'
 import { useMemo, useState } from 'react'
-import { TradeType } from 'defily-v2-sdk'
+import { TradeType } from '@uniswap/sdk'
 import { RefreshCcw } from 'react-feather'
 import { Field } from 'store/swap/actions'
 import {

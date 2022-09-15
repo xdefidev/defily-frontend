@@ -1,6 +1,6 @@
 import { parseUnits } from '@ethersproject/units'
 import tokens from 'constants/tokens'
-import { CurrencyAmount, ETHER, JSBI, Token, TokenAmount } from 'defily-v2-sdk'
+import { CurrencyAmount, ETHER, JSBI, Token, TokenAmount } from '@uniswap/sdk'
 import useKardiachain from 'hooks/useKardiachain'
 import { useCallback, useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'

@@ -1,4 +1,4 @@
-import { JSBI, Percent } from 'defily-v2-sdk'
+import { JSBI, Percent } from '@uniswap/sdk'
 
 const PercentPicker = ({ onChangePercentInput }) => {
   return (

@@ -1,6 +1,6 @@
 import classnames from 'classnames'
 import LogoSwap from 'components/LogoSwap/LogoSwap'
-import { ETHER, Token } from 'defily-v2-sdk'
+import { ETHER, Token } from '@uniswap/sdk'
 import { useMemo } from 'react'
 import { WrappedTokenInfo } from 'store/lists/hooks'
 

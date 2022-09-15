@@ -1,4 +1,4 @@
-import { Trade, TradeType } from 'defily-v2-sdk'
+import { Trade, TradeType } from '@uniswap/sdk'
 import { Field } from 'store/swap/actions'
 import { useUserSlippageTolerance } from 'store/user/hooks'
 import { computeSlippageAdjustedAmounts, computeTradePriceBreakdown } from 'utils/prices'

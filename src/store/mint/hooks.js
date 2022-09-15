@@ -1,4 +1,4 @@
-import { CurrencyAmount, ETHER, JSBI, Percent, Price } from 'defily-v2-sdk'
+import { CurrencyAmount, ETHER, JSBI, Percent, Price } from '@uniswap/sdk'
 import useKardiachain from 'hooks/useKardiachain'
 import { useCallback, useMemo } from 'react'
 import { useDispatch, useSelector } from 'react-redux'

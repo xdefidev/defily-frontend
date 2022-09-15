@@ -1,4 +1,4 @@
-import { JSBI, Percent, TokenAmount } from 'defily-v2-sdk'
+import { JSBI, Percent, TokenAmount } from '@uniswap/sdk'
 import useKardiachain from 'hooks/useKardiachain'
 import { useCallback } from 'react'
 import { useDispatch, useSelector } from 'react-redux'

@@ -1,4 +1,4 @@
-import { TokenAmount } from 'defily-v2-sdk'
+import { TokenAmount } from '@uniswap/sdk'
 import { useTokenContract } from './useContract'
 import { useSingleCallResult } from 'store/multicall/hooks'
 

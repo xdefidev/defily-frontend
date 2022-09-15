@@ -1,4 +1,4 @@
-import { TokenAmount, Pair } from 'defily-v2-sdk'
+import { TokenAmount, Pair } from '@uniswap/sdk'
 import useKardiachain from 'hooks/useKardiachain'
 import { useMemo } from 'react'
 import IUniswapV2PairABI from 'config/abi/lpToken.json'

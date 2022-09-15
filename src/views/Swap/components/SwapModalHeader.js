@@ -1,7 +1,7 @@
 import Button from 'components/Button/Button'
 import CurrencyLogo from 'components/LogoSwap/CurrencyLogo'
 import { useMemo } from 'react'
-import { TradeType } from 'defily-v2-sdk'
+import { TradeType } from '@uniswap/sdk'
 import { AlertTriangle, ArrowDown } from 'react-feather'
 import { Field } from 'store/swap/actions'
 import { computeSlippageAdjustedAmounts, computeTradePriceBreakdown, warningSeverity } from 'utils/prices'

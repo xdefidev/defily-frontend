@@ -1,5 +1,5 @@
 import address from 'constants/contracts'
-import { ChainId, Token } from 'defily-v2-sdk'
+import { ChainId, Token } from '@uniswap/sdk'
 
 export const WKAI = new Token(ChainId.MAINNET, address.wKai, 18, 'WKAI', 'Wrapped KAI')
 export const BECO = new Token(ChainId.MAINNET, '0x2Eddba8b949048861d2272068A94792275A51658', 18, 'BECO', 'BECO')

@@ -1,4 +1,4 @@
-import { currencyEquals } from 'defily-v2-sdk'
+import { currencyEquals } from '@uniswap/sdk'
 import { ZERO_PERCENT, ONE_HUNDRED_PERCENT } from 'constants/swap'
 
 // returns whether tradeB is better than tradeA by at least a threshold percentage amount

@@ -1,4 +1,4 @@
-import { JSBI, Percent, Router, TradeType } from 'defily-v2-sdk'
+import { JSBI, Percent, Router, TradeType } from '@uniswap/sdk'
 import useKardiachain from 'hooks/useKardiachain'
 import { useMemo } from 'react'
 import {

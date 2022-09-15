@@ -1,7 +1,7 @@
 import Input from 'components/Input/Input'
 import useKardiachain from 'hooks/useKardiachain'
 import { useCallback, useMemo, useRef, useState } from 'react'
-import { Currency, ETHER } from 'defily-v2-sdk'
+import { Currency, ETHER } from '@uniswap/sdk'
 import useDebounce from 'hooks/useDebounce'
 import { useAllTokens } from 'hooks/Tokens'
 import { isAddress } from '../../utils'

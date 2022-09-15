@@ -1,4 +1,4 @@
-import { Pair, ETHER, Token } from 'defily-v2-sdk'
+import { Pair, ETHER, Token } from '@uniswap/sdk'
 
 export function currencyId(currency) {
   if (currency === ETHER) return 'KAI'

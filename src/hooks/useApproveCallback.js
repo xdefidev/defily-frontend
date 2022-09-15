@@ -1,5 +1,5 @@
 import { UINT256_MAX } from 'config/index'
-import { TokenAmount, ETHER } from 'defily-v2-sdk'
+import { TokenAmount, ETHER } from '@uniswap/sdk'
 import useKardiachain from 'hooks/useKardiachain'
 import { useCallback, useMemo, useState } from 'react'
 import { ROUTER_ADDRESS } from 'constants/swap'

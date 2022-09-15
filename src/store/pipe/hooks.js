@@ -1,6 +1,6 @@
 import BigNumber from 'bignumber.js'
 import { WKAI } from 'constants/tokens'
-import { currencyEquals, ETHER, JSBI } from 'defily-v2-sdk'
+import { currencyEquals, ETHER, JSBI } from '@uniswap/sdk'
 import { useTradeExactOut } from 'hooks/Trades'
 import useKardiachain from 'hooks/useKardiachain'
 import useTotalSupply from 'hooks/useTotalSupply'

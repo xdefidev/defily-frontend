@@ -1,7 +1,7 @@
 import Button from 'components/Button/Button'
 import DoubleCurrencyLogo from 'components/LogoSwap/DoubleLogo'
 import { DFL } from 'constants/tokens'
-import { currencyEquals } from 'defily-v2-sdk'
+import { currencyEquals } from '@uniswap/sdk'
 
 export default function CommonBases({ chainId, onSelect, pairs }) {
   const commonBases = pairs.filter((pair) => {

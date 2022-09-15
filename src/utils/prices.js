@@ -1,4 +1,4 @@
-import { CurrencyAmount, JSBI, Percent, TokenAmount } from 'defily-v2-sdk'
+import { CurrencyAmount, JSBI, Percent, TokenAmount } from '@uniswap/sdk'
 import {
   BLOCKED_PRICE_IMPACT_NON_EXPERT,
   ALLOWED_PRICE_IMPACT_HIGH,

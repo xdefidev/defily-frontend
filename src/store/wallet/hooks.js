@@ -1,5 +1,5 @@
 import ERC20_INTERFACE from 'config/abi/erc20'
-import { CurrencyAmount, ETHER, JSBI, Token, TokenAmount } from 'defily-v2-sdk'
+import { CurrencyAmount, ETHER, JSBI, Token, TokenAmount } from '@uniswap/sdk'
 import useKardiachain from 'hooks/useKardiachain'
 import { useMemo } from 'react'
 import { useAllTokens } from 'hooks/Tokens'

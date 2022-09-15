@@ -1,5 +1,5 @@
 import { BASES_TO_TRACK_LIQUIDITY_FOR, PINNED_PAIRS } from 'constants/swap'
-import { Pair, Token } from 'defily-v2-sdk'
+import { Pair, Token } from '@uniswap/sdk'
 import { useAllTokens } from 'hooks/Tokens'
 import useKardiachain from 'hooks/useKardiachain'
 import { useCallback, useMemo } from 'react'

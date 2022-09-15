@@ -1,4 +1,4 @@
-import { CurrencyAmount, ETHER, JSBI } from 'defily-v2-sdk'
+import { CurrencyAmount, ETHER, JSBI } from '@uniswap/sdk'
 import { MIN_KAI } from 'constants/swap'
 
 /**

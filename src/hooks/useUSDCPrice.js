@@ -1,4 +1,4 @@
-import { currencyEquals, Price, Token } from 'defily-v2-sdk'
+import { currencyEquals, Price, Token } from '@uniswap/sdk'
 import { useTradeExactOut } from 'hooks/Trades'
 import useKardiachain from 'hooks/useKardiachain'
 import { useMemo } from 'react'

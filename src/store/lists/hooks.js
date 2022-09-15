@@ -1,4 +1,4 @@
-import { ChainId, Token } from 'defily-v2-sdk'
+import { ChainId, Token } from '@uniswap/sdk'
 import { useMemo } from 'react'
 import { useSelector } from 'react-redux'
 

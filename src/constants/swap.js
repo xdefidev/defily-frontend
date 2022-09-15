@@ -1,5 +1,5 @@
 import tokens, { BOSSDOGE, DFL, KUSD, VNDC, WKAI } from 'constants/tokens'
-import { ChainId, JSBI, Percent, WETH } from 'defily-v2-sdk'
+import { ChainId, JSBI, Percent, WETH } from '@uniswap/sdk'
 
 export const ROUTER_ADDRESS = '0x66153fDc998252C0A98764933e2fC8D1B1009C2B'
 export const ZAP_ADDRESS = '0x2Eb8dF4B8Be0bf611330adc4531E4e04f9E1f2b4'

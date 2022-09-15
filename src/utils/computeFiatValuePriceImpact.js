@@ -1,5 +1,5 @@
 import { ONE_HUNDRED_PERCENT } from 'constants/swap'
-import { Percent } from 'defily-v2-sdk'
+import { Percent } from '@uniswap/sdk'
 import JSBI from 'jsbi'
 
 export function computeFiatValuePriceImpact(fiatValueInput, fiatValueOutput) {
